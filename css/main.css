@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    background-color: rgb(112, 197, 145);
+}
+
+img {
+    height: 600px;
+    border-radius: 10%;
+    border-style: solid;
+    box-shadow: 10px 10px 5px  rgb(66, 54, 54);
+
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(66, 90, 82);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px #282b2a;
+    
+}
+
+div {
+    background-color: green;
+    padding: 30px;
+    font-size: 50px;
+    color: rgb(47, 82, 67);
+    font-weight:bolder;
+    width: 300px;
+    border-style: dotted;
+    border-radius: 10px;
+    height: 50px;
+    position: absolute;
+    bottom:1%;
+    left: 30%;
+    box-shadow: 10px 10px 5px rgb(6, 59, 8);
+    text-shadow: 2px 2px #585050;
+
+}
+
+.div1 {
+left: 50%
+}
+
+.div1:hover {
+    cursor:pointer;
+    background-color: rgb(36, 141, 101);
+}
+
+.div2:hover {
+    cursor:pointer;
+    background-color: rgb(36, 141, 101);
+}
+
+.div1:active {
+    height: 40px;
+}
+.div2:active {
+    height: 40px;
+
+}
+
+.description {
+    background-color: rgb(13, 128, 80);
+    left: 30%;
+    position:relative;
+    width: 680px;
+    height: 30px;
+    box-shadow: 5px 5px 5px rgb(10, 19, 10);
+    border-style: solid;
+    font-size: 25px;
+    padding-top: unset;
+    padding-bottom: 50px;
+    color: black;
+    padding-bottom: 60px;
+
+}
+
+button {
+    background-color: rgb(13, 128, 80);
+    width: 680px;
+    height: 30px;
+    box-shadow: 5px 5px 5px rgb(10, 19, 10);
+    border-style: solid;
+    padding-top: unset;
+    color: black;
+    font-size: 25px;
+    border-radius: 50%;
+    border-style: solid;
+    width : 400px;
+    height : 100px;
+    border :2px,2px,2px,black;
+    display: none;
+    margin-top: 2%;
+    margin-left: 40%;
+}
+
+button:hover {
+    background-color: rgb(85, 100, 94);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(10, 19, 10);
+    border-style: solid;
+    padding-top: unset;
+    color: black;
+    width: 400px;
+    height: 100px;
+}
+
+button:active {
+    background-color: rgb(85, 100, 94);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(10, 19, 10);
+    border-style: solid;
+    padding-top: unset;
+    color: black;
+    width: 300px;
+    height: 80px;
+}
